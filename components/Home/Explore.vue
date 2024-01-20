@@ -1,18 +1,18 @@
 <script setup>
 const cities = [
   {
-    name: "Indonasia",
+    name: "🇮🇩 Indonasia",
     size: "big",
   },
-  { name: "Singapore" },
-  { name: "USA", size: "big" },
-  { name: "France" },
+  { name: "🇸🇬 Singapore" },
+  { name: "🇺🇸 USA", size: "big" },
+  { name: "🇫🇷 France" },
 ];
 </script>
 
 <template>
   <section
-    class="container mx-auto max-sm:py-4 min-h-dvh grid place-items-center grid-cols-2 gap-16"
+    class="container mx-auto max-sm:py-4 min-h-screen grid place-items-center grid-cols-2 gap-16"
   >
     <div class="grid justify-items-start content-center gap-8">
       <div class="text-4xl font-bold">Let's explore the world with Divy Travel</div>
