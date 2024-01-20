@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto">
+  <section class="container mx-auto max-xl:px-8">
     <footer class="flex justify-between py-8 border-t">
       <div class="grid gap-4">
         <Logo />

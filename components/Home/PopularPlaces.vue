@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto py-16">
+  <section class="container mx-auto max-xl:px-8 py-16">
     <div class="flex justify-between items-end mb-8">
       <div class="space-y-3">
         <div class="text-3xl font-bold">Popular destination</div>

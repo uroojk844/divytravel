@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="text-gray-50 absolute z-10 top-0 left-1/2 -translate-x-1/2 container py-6 flex justify-between items-center"
+    class="text-gray-50 absolute z-10 top-0 left-1/2 -translate-x-1/2 container max-xl:px-8 py-6 flex justify-between items-center"
   >
     <Logo />
     <div class="flex gap-8 capitalize">

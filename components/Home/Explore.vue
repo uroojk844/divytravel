@@ -12,10 +12,12 @@ const cities = [
 
 <template>
   <section
-    class="container mx-auto max-sm:py-4 min-h-screen grid place-items-center grid-cols-2 gap-16"
+    class="container mx-auto max-xl:px-8 min-h-screen grid place-items-center grid-cols-2 gap-16"
   >
     <div class="grid justify-items-start content-center gap-8">
-      <div class="text-4xl font-bold">Let's explore the world with Divy Travel</div>
+      <div class="text-4xl font-bold">
+        Let's explore the world with Divy Travel
+      </div>
       <div class="space-y-4 text-slate-500">
         <p>
           Traveling can be a great way to explore the world and learn about new

@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto py-16">
+  <section class="container mx-auto max-xl:px-8 py-16">
     <div class="flex justify-between items-center p-16 bg-primary rounded-xl">
       <div class="space-y-5">
         <div class="text-4xl font-bold">Get our best offer now</div>

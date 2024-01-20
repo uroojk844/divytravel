@@ -21,7 +21,7 @@ const data = [
 <template>
   <div class="bg-secondary">
     <section
-      class="container mx-auto min-h-screen grid content-center justify-items-center max-sm:p-4"
+      class="container mx-auto min-h-screen grid content-center justify-items-center max-xl:px-8"
     >
       <div class="text-4xl font-bold mb-4">Why Travely</div>
       <div class="text-slate-500 mb-16">
