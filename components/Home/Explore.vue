@@ -32,7 +32,7 @@ const cities = [
           your travel goals and budget.
         </p>
       </div>
-      <Button>Learn more</Button>
+      <Button size="lg">Learn more</Button>
     </div>
     <div class="grid grid-cols-2 gap-6">
       <div

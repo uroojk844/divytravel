@@ -14,12 +14,27 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.bg-primary{
+body::-webkit-scrollbar {
+    width: 8px;
+    position: absolute;
+    left: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    border-radius: 4px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.bg-primary {
     background-color: var(--primary);
     color: var(--text);
 }
 
-.bg-secondary{
+.bg-secondary {
     background-color: var(--secondary);
 }
 
@@ -31,13 +46,25 @@ body {
     color: var(--secondary);
 }
 
-.border-primary{
+.border-primary {
     border-color: var(--primary);
 }
 
-/* .router-link-exact-active{
-    color: var(--primary);
-} */
+nav .router-link-exact-active {
+    position: relative;
+}
+
+nav .router-link-exact-active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary);
+    border-bottom: 5px solid var(--primary);
+    border-radius: 5px;
+}
+
 
 .big {
     grid-row: span 2;
