@@ -13,7 +13,9 @@ defineProps({
         <div class="text-3xl font-bold">Popular destination</div>
         <div class="text-sm text-slate-500">Recommendation place for you</div>
       </div>
-      <Button>See all destination</Button>
+      <NuxtLink to="/discover">
+        <Button>See all destination</Button>
+      </NuxtLink>
     </div>
 
     <div class="grid grid-cols-3 gap-6">
