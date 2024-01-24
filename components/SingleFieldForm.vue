@@ -15,7 +15,7 @@ const { type, placeholder, label } = defineProps([
     <input
       :type="type ?? 'text'"
       :placeholder="placeholder"
-      class="px-3 outline-none text-black max-sm:py-2.5 rounded-full"
+      class="flex-1 px-3 outline-none text-black max-sm:py-2.5 rounded-full"
       required
     />
     <Button>{{ label }}</Button>
