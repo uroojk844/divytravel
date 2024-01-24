@@ -12,7 +12,7 @@ const cities = [
 
 <template>
   <section
-    class="container mx-auto max-xl:px-8 min-h-screen grid place-items-center grid-cols-2 gap-16"
+    class="container mx-auto max-xl:px-8 min-h-screen grid place-items-center grid-cols-2 max-sm:grid-cols-1 gap-16 max-sm:py-12"
   >
     <div class="grid justify-items-start content-center gap-8">
       <div class="text-4xl font-bold">
@@ -34,9 +34,9 @@ const cities = [
       </div>
       <Button size="lg">Learn more</Button>
     </div>
-    <div class="grid grid-cols-2 gap-6">
+    <div class="grid max-sm:grid-cols-1 grid-cols-2 gap-6">
       <div
-        class="relative"
+        class="relative max-sm:aspect-square"
         :class="{ big: size == 'big' }"
         v-for="({ name, size }, index) in cities"
         :key="index"
@@ -48,7 +48,7 @@ const cities = [
             '.webp?' +
             index
           "
-          class="w-full object-cover rounded-2xl"
+          class="max-sm:h-full w-full object-cover rounded-2xl"
           alt=""
         />
         <BlurBadge size="sm" class="absolute top-4 left-4">{{

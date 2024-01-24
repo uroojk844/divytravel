@@ -54,7 +54,7 @@ nav .router-link-exact-active {
     position: relative;
 }
 
-nav .router-link-exact-active::before {
+nav .router-link-exact-active:not(.logo):before {
     content: "";
     position: absolute;
     left: 0;

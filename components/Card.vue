@@ -6,7 +6,7 @@ const { data } = defineProps(["data"]);
   <div class="rounded-2xl overflow-hidden shadow-sm">
     <img
       :src="'http://picsum.photos/400.webp?' + data"
-      class="w-full object-cover"
+      class="w-full object-cover max-sm:aspect-video"
       alt=""
     />
     <div class="p-5">

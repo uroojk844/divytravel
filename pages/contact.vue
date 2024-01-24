@@ -1,7 +1,7 @@
 <template>
-  <section class="grid grid-cols-2">
+  <section class="grid grid-cols-2 max-sm:grid-cols-1">
     <div
-      class="bg-primary grid place-content-center place-items-center gap-8 px-12 py-16"
+      class="max-sm:min-h-svh bg-primary grid place-content-center place-items-center gap-8 px-12 py-16"
     >
       <div class="flex items-center gap-5 flex-col text-4xl font-bold">
         <div class="flex relative w-24">
@@ -12,14 +12,16 @@
         </div>
         DivyTravel
       </div>
-      <div class="text-6xl max-w-md text-center font-semibold">
+      <div class="text-6xl max-sm:text-3xl max-w-md text-center font-semibold">
         We love to hear your valuable feedback.
       </div>
     </div>
-    <div class="bg-blue-100 grid place-items-center py-24">
+
+
+    <div class="bg-blue-100 grid place-items-center py-24 px-4">
       <form
         method="post"
-        class="bg-white px-8 py-12 rounded-3xl shadow-md grid gap-6 max-w-md w-full mx-auto"
+        class="bg-white px-8 max-sm:px-4 py-12 rounded-3xl shadow-md grid gap-6 max-w-md w-full mx-auto"
         @submit.prevent=""
       >
         <div class="group">

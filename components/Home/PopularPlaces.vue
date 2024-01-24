@@ -13,13 +13,17 @@ defineProps({
         <div class="text-3xl font-bold">Popular destination</div>
         <div class="text-sm text-slate-500">Recommendation place for you</div>
       </div>
-      <NuxtLink to="/discover">
+      <NuxtLink class="max-sm:hidden" to="/discover">
         <Button>See all destination</Button>
       </NuxtLink>
     </div>
 
-    <div class="grid grid-cols-3 gap-6">
+    <div class="grid grid-cols-3 max-sm:grid-cols-1 gap-6 max-sm:mb-8">
       <Card v-for="(item, index) in $props.items" :key="index" :data="item" />
     </div>
+
+    <NuxtLink class="sm:hidden flex justify-center" to="/discover">
+      <Button>See all destination</Button>
+    </NuxtLink>
   </section>
 </template>

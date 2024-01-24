@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center gap-3 text-xl font-medium">
+  <NuxtLink to="/" class="logo flex items-center gap-3 text-xl font-medium">
     <div class="flex relative w-11">
       <div class="w-6 aspect-square bg-blue-700 rounded-full"></div>
       <div
@@ -7,5 +7,5 @@
       ></div>
     </div>
     DivyTravel
-  </div>
+  </NuxtLink>
 </template>

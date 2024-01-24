@@ -21,15 +21,15 @@ const data = [
 <template>
   <div class="bg-secondary">
     <section
-      class="container mx-auto min-h-screen grid content-center justify-items-center max-xl:px-8"
+      class="container mx-auto min-h-screen grid content-center justify-items-center max-xl:px-8 py-12"
     >
       <div class="text-4xl font-bold mb-4">Why Travely</div>
-      <div class="text-slate-500 mb-16">
+      <div class="text-slate-500 mb-16 max-sm:text-center max-sm:mb-4">
         There are many advantages to booking your travel tickets over other
         competitors
       </div>
 
-      <div class="grid grid-cols-3 gap-6">
+      <div class="grid max-sm:grid-cols-1 grid-cols-3 gap-6 max-sm:py-8">
         <div
           class="p-6 bg-white/40 rounded-xl"
           v-for="(item, index) in data"

@@ -1,7 +1,7 @@
 <template>
   <div class="border-t">
     <section class="container mx-auto max-xl:px-8">
-      <footer class="flex justify-between py-8">
+      <footer class="flex flex-wrap gap-8 justify-between py-8">
         <div class="grid gap-4">
           <Logo />
           <p class="text-slate-500 mb-6 max-w-64">
@@ -41,8 +41,8 @@
           </div>
         </div>
       </footer>
-      <div class="flex items-center justify-between py-8 text-sm">
-        <div>&copy; Copyright {{ new Date().getFullYear() }} Divy Travel</div>
+      <div class="flex flex-wrap gap-2 items-center justify-between max-sm:justify-center py-8 text-sm">
+        <div class="max-sm:text-center">&copy; Copyright {{ new Date().getFullYear() }} Divy Travel</div>
         <div class="flex gap-6">
           <div>Terms & Condition</div>
           <div>Privacy &Policy</div>

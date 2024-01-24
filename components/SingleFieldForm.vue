@@ -10,12 +10,12 @@ const { type, placeholder, label } = defineProps([
   <form
     method="post"
     @submit.prevent=""
-    class="flex w-full p-2 bg-white rounded-full overflow-hidden"
+    class="flex gap-4 max-sm:flex-wrap w-full max-sm:justify-center sm:p-2 sm:bg-white sm:rounded-full overflow-hidden"
   >
     <input
       :type="type ?? 'text'"
       :placeholder="placeholder"
-      class="flex-1 px-4 outline-none text-black"
+      class="px-3 outline-none text-black max-sm:py-2.5 rounded-full"
       required
     />
     <Button>{{ label }}</Button>
